@@ -67,57 +67,70 @@ const Founder = () => (
       </section>
 
       {/* Experience */}
-      <section>
-        <SectionTitle>Professional Experience</SectionTitle>
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-            <h3 className="text-xl font-bold text-slate-900">
-              IT Executive / Associate Banking Operations Clerk
-            </h3>
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold border border-emerald-200">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> Active
-            </span>
-          </div>
+      {/* Professional Experience */}
+<section>
+  <SectionTitle>Professional Experience</SectionTitle>
 
-          <p className="text-slate-500 text-sm mt-1">DCUB Bank Ltd. · 2024 – Present</p>
+  <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
+    <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+      <h3 className="text-xl font-bold text-slate-900">
+        Founder & Lead Architect
+      </h3>
 
-          <ul className="grid sm:grid-cols-2 gap-2 text-slate-600 mt-4 text-sm leading-relaxed">
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> Support banking IT infrastructure, cybersecurity, and system administration
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> RBI Cyber Security Framework gap analysis & IT audits
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> OS/application patching, vulnerability remediation, and hardening
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> VAPT activities, remediation tracking, and configuration reviews
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> Windows systems, LAN/network, and banking terminal configuration
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> Server builds, virtual machines, backups, and infrastructure monitoring
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> CCTV surveillance infrastructure, health monitoring, and backups
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> ATM/CDM monitoring, banking-system operations, and issue resolution
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> Clearing, ledger/account verification, reconciliation, NEFT/SFMS
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> IT asset records and hardware/software lifecycle tracking
-            </li>
-            <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
-              <span className="text-blue-600 mt-0.5">▹</span> Internal applications and automation utilities development
-            </li>
-          </ul>
-        </div>
-      </section>
+      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-semibold border border-emerald-200">
+        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+        Active
+      </span>
+    </div>
+
+    <p className="text-slate-500 text-sm mt-1">
+      Mark-Q Infotech · 2026 – Present
+    </p>
+    <p className="text-slate-500 text-sm mt-1">Banking Technology & IT Professional </p>
+
+    <ul className="grid sm:grid-cols-2 gap-2 text-slate-600 mt-4 text-sm leading-relaxed">
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Lead software architecture, application development, and technical strategy
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Design and develop enterprise software, banking technology, and workflow systems
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Lead full-stack development, backend architecture, APIs, databases, and system integration
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Apply cybersecurity principles across application, infrastructure, and system environments
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Work on vulnerability remediation, security hardening, VAPT support, and IT security practices
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Develop technology solutions for banking, financial operations, and enterprise environments
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Lead technical planning, architecture decisions, development standards, and quality practices
+      </li>
+
+      <li className="flex items-start gap-2 p-2 rounded-lg hover:bg-slate-50 transition-colors">
+        <span className="text-blue-600 mt-0.5">▹</span>
+        Coordinate technical requirements and solution design with clients and internal teams
+      </li>
+    </ul>
+  </div>
+</section>
 
       {/* Core Competencies */}
       <section>
