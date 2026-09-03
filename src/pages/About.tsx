@@ -493,7 +493,7 @@ const About: React.FC = () => {
       AF
     </div>
     <div>
-      <h4 className="font-bold text-slate-900">Mohammed Adnan Faraaz</h4>
+      <h4 className="font-bold text-slate-900">Mohammed Adnan Fraaz</h4>
       <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Marketing Incharge</p>
     </div>
   </div>
