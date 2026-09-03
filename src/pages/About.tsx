@@ -418,7 +418,7 @@ const About: React.FC = () => {
       </p>
       <div className="mt-3 flex flex-wrap gap-1.5">
         <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">B.Tech (Osmania University)</span>
-        <span className="text-xs bg-purple-50 text-purple-700 px-2.5 py-1 rounded-full border border-purple-200">M.Sc. Data Science (USA)</span>
+        <span className="text-xs bg-purple-50 text-purple-700 px-2.5 py-1 rounded-full border border-purple-200">M.S in csit (Elmhurst University) (USA)</span>
       </div>
     </div>
 
@@ -598,7 +598,7 @@ const About: React.FC = () => {
                className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
               <Phone size={12} /> 17733025598
             </a>
-            <a href="mailto:syedfasi1604@gmail.com" 
+            <a href="mailto:shanawaz.ams@gmail.com" 
                className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
               <Mail size={12} /> Email
             </a>
@@ -682,7 +682,7 @@ const About: React.FC = () => {
       AF
     </div>
     <div>
-      <h4 className="text-sm font-semibold text-white">Mohammed Adnan Faraaz</h4>
+      <h4 className="text-sm font-semibold text-white">Mohammed Adnan Fraaz</h4>
       <p className="text-[10px] text-blue-200">Marketing & Brand</p>
     </div>
   </div>
