@@ -45,10 +45,10 @@ export const SERVICES_LIST = [
 ];
 
 export const STATS_LIST = [
-  { number: "15+", label: "Engineers & Specialists" },
-  { number: "2022", label: "Founded In" },
+  { number: "12+", label: "Engineers & Specialists" },
+  { number: "2024", label: "Founded In" },
   { number: "50+", label: "Enterprise Projects" },
-  { number: "5+", label: "Countries Served" }
+  { number: "5+", label: "City Served" }
 ];
 
 export const PROCESS_STEPS = [

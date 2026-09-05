@@ -37,17 +37,17 @@ const VALUES = [
 
 const TIMELINE = [
   {
-    year: "2024",
+    year: "2025",
     title: "Foundation",
     desc: "Established with a focus on cybersecurity, IT infrastructure, banking technology, and enterprise IT operations.",
   },
   {
-    year: "2025",
+    year: "2026",
     title: "Digital Engineering & Product Development",
     desc: "Expanded into full-stack software engineering, developing custom business applications, banking systems, automation platforms, and secure digital solutions.",
   },
   {
-    year: "2026",
+    year: "2027",
     title: "Enterprise Technology Solutions",
     desc: "Expanded capabilities across IT Asset Management, Vendor Management, enterprise applications, cybersecurity, infrastructure, and custom software delivery.",
   },
