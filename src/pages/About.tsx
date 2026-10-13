@@ -189,7 +189,7 @@ const About: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-slate-900">
-                      Mohd Abdul Razzak
+                      M.A Razzaq
                     </h3>
                     <p className="text-emerald-700 text-xs font-mono font-bold uppercase tracking-wide">
                       Founder & Lead Architect
@@ -352,162 +352,79 @@ const About: React.FC = () => {
   </div>
 
   {/* Founder & Lead Architect - First */}
-  <div className="mb-12">
-    <div className="relative">
-      <div className="absolute -top-3 left-0 w-20 h-1 bg-gradient-to-r from-blue-600 to-emerald-500 rounded-full" />
-      <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 mb-4">Founder & Lead Architect</h3>
-    </div>
-    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-        <div>
-          <h4 className="text-xl font-bold text-slate-900">Mohd Abdul Razzak</h4>
-          <p className="text-emerald-700 text-sm font-semibold">Software Engineering · Banking Technology · Cybersecurity</p>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          <span className="px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-xs text-blue-700 font-medium">Full-Stack Development</span>
-          <span className="px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs text-emerald-700 font-medium">Core Banking Systems</span>
-          <span className="px-3 py-1 rounded-full bg-purple-50 border border-purple-200 text-xs text-purple-700 font-medium">Cybersecurity & VAPT</span>
-          <span className="px-3 py-1 rounded-full bg-orange-50 border border-orange-200 text-xs text-orange-700 font-medium">IT Infrastructure</span>
-        </div>
-      </div>
-    </div>
+
+
+{/* Board of Directors */}
+<div className="mb-12">
+  <div className="relative">
+    <div className="absolute -top-3 left-0 w-20 h-1 bg-gradient-to-r from-blue-600 to-emerald-500 rounded-full" />
+    <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 mb-4">
+      Board of Directors
+    </h3>
+    <p className="text-slate-600 text-sm mb-6">
+      Providing strategic direction, governance, and leadership to support
+      the growth and long-term vision of Mark-Q Infotech.
+    </p>
   </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+    {/* Director 1 - M.A. Razzaq */}
+    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
+      <div className="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm mb-4">
+        MR
+      </div>
+      <h4 className="font-bold text-slate-900">M.A. Razzaq</h4>
+      <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide mt-1">
+        Founder & Managing Director
+      </p>
+      <p className="text-slate-600 text-sm leading-relaxed mt-3">
+        Company vision · Executive leadership · Software engineering ·
+        Banking technology · Cybersecurity
+      </p>
+    </div>
+
+    {/* Director 2 - Syed Saber Hussain */}
+    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
+      <div className="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm mb-4">
+        SH
+      </div>
+      <h4 className="font-bold text-slate-900">
+        Syed Saber Hussain
+      </h4>
+      <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide mt-1">
+        Director — Business Strategy
+      </p>
+      <p className="text-slate-600 text-sm leading-relaxed mt-3">
+        Business development · Strategic planning · Investment advisory ·
+        Institutional strategy
+      </p>
+    </div>
+
+    {/* Director 3 - Syed Abdul Shahnawaz */}
+    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-cyan-300">
+      <div className="w-12 h-12 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center font-bold text-sm mb-4">
+        SS
+      </div>
+      <h4 className="font-bold text-slate-900">
+        Syed Abdul Shahnawaz
+      </h4>
+      <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide mt-1">
+        Director — Technology & Data Analytics
+      </p>
+      <p className="text-slate-600 text-sm leading-relaxed mt-3">
+        Cloud data architecture · Predictive analytics · Enterprise
+        technology strategy · Technical innovation
+      </p>
+    </div>
+
+  </div>
+</div>
+
 
   {/* Leadership & Core Team Grid */}
   <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
     
-    {/* 1. Syed Saber Hussain */}
-    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-blue-300">
-      <div className="flex items-start gap-3 mb-3">
-        <div className="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">
-          SH
-        </div>
-        <div>
-          <h4 className="font-bold text-slate-900">Syed Saber Hussain</h4>
-          <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Investor & Chief Business Strategist</p>
-        </div>
-      </div>
-      <p className="text-slate-600 text-sm leading-relaxed">
-        Strategic direction · Investment advisory · Business development · Institutional strategy
-      </p>
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">M.Sc.</span>
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">B.Ed.</span>
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">B.Sc. Mathematics</span>
-      </div>
-      <div className="mt-3 pt-3 border-t border-slate-100">
-        <span className="text-xs text-slate-500 bg-slate-50 px-3 py-1 rounded-full">
-          Telangana State Education Department
-        </span>
-      </div>
-    </div>
-
-    {/* 2. Syed Abdul Shahnawaz */}
-    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-cyan-300">
-      <div className="flex items-start gap-3 mb-3">
-        <div className="w-10 h-10 rounded-xl bg-cyan-100 text-cyan-700 flex items-center justify-center font-bold text-sm shrink-0">
-          SS
-        </div>
-        <div>
-          <h4 className="font-bold text-slate-900">Syed Abdul Shahnawaz</h4>
-          <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Investor & Head of Data Analytics / Tech Lead</p>
-        </div>
-      </div>
-      <p className="text-slate-600 text-sm leading-relaxed">
-        Cloud data architecture · Predictive analytics · Enterprise technology strategy · Strategic investment
-      </p>
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">B.Tech (Osmania University)</span>
-        <span className="text-xs bg-purple-50 text-purple-700 px-2.5 py-1 rounded-full border border-purple-200">M.S in csit (Elmhurst University) (USA)</span>
-      </div>
-    </div>
-
-    {/* 3. Syed Fasiullah */}
-    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-orange-300">
-      <div className="flex items-start gap-3 mb-3">
-        <div className="w-10 h-10 rounded-xl bg-orange-100 text-orange-700 flex items-center justify-center font-bold text-sm shrink-0">
-          SF
-        </div>
-        <div>
-          <h4 className="font-bold text-slate-900">Syed Fasiullah</h4>
-          <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Network Engineer & Systems Administrator</p>
-        </div>
-      </div>
-      <p className="text-slate-600 text-sm leading-relaxed">
-        Network infrastructure · CCTV & surveillance · Systems administration · IT operations
-      </p>
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">B.Sc.</span>
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">M.Sc.</span>
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">Osmania University</span>
-      </div>
-    </div>
-
-    {/* 4. Mohammed Saber */}
-    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-emerald-300">
-      <div className="flex items-start gap-3 mb-3">
-        <div className="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold text-sm shrink-0">
-          MS
-        </div>
-        <div>
-          <h4 className="font-bold text-slate-900">Mohammed Saber</h4>
-          <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Senior Executive & Head of Finance</p>
-        </div>
-      </div>
-      <p className="text-slate-600 text-sm leading-relaxed">
-        Financial management · Accounts · Budgeting · Business finance
-      </p>
-      <div className="mt-3 flex flex-wrap gap-1.5">
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">MBA (Finance)</span>
-        <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">B.Com</span>
-        <span className="text-xs bg-purple-50 text-purple-700 px-2.5 py-1 rounded-full border border-purple-200">KPMG Dubai · 4 yrs</span>
-      </div>
-    </div>
-
-    {/* 5. Syed Abdul Sarfaraz */}
-    <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-indigo-300">
-      <div className="flex items-start gap-3 mb-3">
-        <div className="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold text-sm shrink-0">
-          AS
-        </div>
-        <div>
-          <h4 className="font-bold text-slate-900">Syed Abdul Sarfaraz</h4>
-          <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Associate Software Engineer & Technical Operations Lead</p>
-        </div>
-      </div>
-      <p className="text-slate-600 text-sm leading-relaxed">
-        Full-stack development · Software quality assurance · System performance · Technical project management
-      </p>
-      <div className="mt-3">
-        <span className="text-xs bg-blue-50 text-blue-700 px-3 py-1 rounded-full border border-blue-200">
-          B.Tech (Osmania University)
-        </span>
-      </div>
-    </div>
-
-    {/* 6. Mohammed Adnan Faraaz */}
-    {/* 6. Mohammed Adnan Faraaz */}
-<div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-all hover:border-purple-300">
-  <div className="flex items-start gap-3 mb-3">
-    <div className="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-bold text-sm shrink-0">
-      AF
-    </div>
-    <div>
-      <h4 className="font-bold text-slate-900">Mohammed Adnan Fraaz</h4>
-      <p className="text-emerald-700 text-xs font-semibold uppercase tracking-wide">Marketing Incharge</p>
-    </div>
-  </div>
-  <p className="text-slate-600 text-sm leading-relaxed">
-    Brand strategy · Marketing operations · Lead generation · Business promotion
-  </p>
-  <div className="mt-3 flex flex-wrap gap-1.5">
-    <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">BBA Marketing</span>
-    <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full border border-blue-200">MBA Finance</span>
-    <span className="text-xs bg-purple-50 text-purple-700 px-2.5 py-1 rounded-full border border-purple-200">Scrum Master</span>
-    <span className="text-xs bg-cyan-50 text-cyan-700 px-2.5 py-1 rounded-full border border-cyan-200">Claude AI</span>
-    <span className="text-xs bg-red-50 text-red-700 px-2.5 py-1 rounded-full border border-red-200">Cybersecurity</span>
-  </div>
-</div>
 
   </div>
 
@@ -605,51 +522,8 @@ const About: React.FC = () => {
           </div>
         </div>
 
-        {/* 3. Syed Fasiullah - IT & Network */}
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/20 transition-all group">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white font-bold text-xs">
-              SF
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold text-white">Syed Fasiullah</h4>
-              <p className="text-[10px] text-blue-200">Networking & IT Ops</p>
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-2 mt-2">
-            <a href="tel:8978776883" 
-               className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
-              <Phone size={12} /> 8978776883
-            </a>
-            <a href="mailto:syedfasi1604@gmail.com" 
-               className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
-              <Mail size={12} /> Email
-            </a>
-          </div>
-        </div>
+        
 
-        {/* 4. Mohammed Saber - Finance & Accounts */}
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/20 transition-all group">
-          <div className="flex items-center gap-3 mb-2">
-            <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white font-bold text-xs">
-              MS
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold text-white">Mohammed Saber</h4>
-              <p className="text-[10px] text-blue-200">Finance & Accounts</p>
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-2 mt-2">
-            <a href="tel:9618896159" 
-               className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
-              <Phone size={12} /> 9618896159
-            </a>
-            <a href="mailto:mohdsaber9618@gmail.com" 
-               className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
-              <Mail size={12} /> Email
-            </a>
-          </div>
-        </div>
 
         {/* 5. Syed Abdul Sarfaraz - Software Engineering */}
         <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/20 transition-all group">
@@ -673,31 +547,6 @@ const About: React.FC = () => {
             </a>
           </div>
         </div>
-
-        {/* 6. Mohammed Adnan Faraaz - Marketing */}
-        {/* 6. Mohammed Adnan Faraaz - Marketing */}
-<div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-4 hover:bg-white/20 transition-all group">
-  <div className="flex items-center gap-3 mb-2">
-    <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white font-bold text-xs">
-      AF
-    </div>
-    <div>
-      <h4 className="text-sm font-semibold text-white">Mohammed Adnan Fraaz</h4>
-      <p className="text-[10px] text-blue-200">Marketing & Brand</p>
-    </div>
-  </div>
-  <div className="flex flex-wrap gap-2 mt-2">
-    <a href="tel:9704050494" 
-       className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
-      <Phone size={12} /> 9704050494
-    </a>
-    <a href="mailto:fraaz0123@gmail.com" 
-       className="inline-flex items-center gap-1.5 text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1.5 rounded-lg transition-all">
-      <Mail size={12} /> Email
-    </a>
-  </div>
-  
-</div>
 
       </div>
 

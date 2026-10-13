@@ -337,46 +337,6 @@ const Contact: React.FC = () => {
                   </div>
                   <span className="text-[10px] text-slate-500 block mt-0.5">Syed Saber Hussain</span>
                 </a>
-
-                <a 
-                  href={createWhatsAppLink("Mohammed Saber", "Finance & Accounts Operations")}
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                  className="text-xs bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-400 rounded-lg px-3 py-2.5 text-center transition-all group"
-                >
-                  <div className="flex items-center justify-center gap-1 font-semibold text-slate-800 group-hover:text-emerald-700">
-                    <span>Finance</span>
-                    <FaWhatsapp size={13} className="text-emerald-600" />
-                  </div>
-                  <span className="text-[10px] text-slate-500 block mt-0.5">Mohammed Saber</span>
-                </a>
-
-                <a 
-                  href={createWhatsAppLink("Mohammed Adnan Faraaz", "Marketing & Growth Strategy")}
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                  className="text-xs bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-400 rounded-lg px-3 py-2.5 text-center transition-all group"
-                >
-                  <div className="flex items-center justify-center gap-1 font-semibold text-slate-800 group-hover:text-emerald-700">
-                    <span>Marketing</span>
-                    <FaWhatsapp size={13} className="text-emerald-600" />
-                  </div>
-                  <span className="text-[10px] text-slate-500 block mt-0.5">Mohammed Adnan Faraaz</span>
-                </a>
-
-                <a 
-                  href={createWhatsAppLink("Syed Fasiullah", "IT & Network Infrastructure")}
-                  target="_blank"
-                  rel="noopener noreferrer" 
-                  className="text-xs bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-400 rounded-lg px-3 py-2.5 text-center transition-all group"
-                >
-                  <div className="flex items-center justify-center gap-1 font-semibold text-slate-800 group-hover:text-emerald-700">
-                    <span>IT & Network</span>
-                    <FaWhatsapp size={13} className="text-emerald-600" />
-                  </div>
-                  <span className="text-[10px] text-slate-500 block mt-0.5">Syed Fasiullah</span>
-                </a>
-
                 <a 
                   href={createWhatsAppLink("Syed Abdul Shahnawaz", "Data Analytics & Tech Leadership")}
                   target="_blank"

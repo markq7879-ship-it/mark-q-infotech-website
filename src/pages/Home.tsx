@@ -296,10 +296,7 @@ const Home: React.FC = () => {
                 <MapPin className="text-blue-900 shrink-0 mt-1" size={18} />
                 <span>Mark-Q Infotech, Hyderabad, Telangana, India</span>
               </div>
-              <div className="flex items-center gap-3">
-                <Phone className="text-emerald-600 shrink-0" size={18} />
-                <span>+91 97040 50494</span>
-              </div>
+              
               <div className="flex items-center gap-3">
                 <Mail className="text-blue-900 shrink-0" size={18} />
                 <span>markq7879@gmail.com</span>
@@ -307,81 +304,7 @@ const Home: React.FC = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-7 bg-white border border-slate-200 p-8 rounded-2xl shadow-sm">
-            <h3 className="text-xl font-bold text-slate-900 mb-6">Send Us a Message</h3>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs font-semibold text-slate-700 mb-1">Full Name</label>
-                  <input
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="John Doe"
-                    className="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:bg-white"
-                  />
-                </div>
-                <div>
-                  <label className="block text-xs font-semibold text-slate-700 mb-1">Phone Number</label>
-                  <input
-                    type="tel"
-                    required
-                    value={formData.phone}
-                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="+91 97040 50494"
-                    className="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:bg-white"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">Email Address</label>
-                <input
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="john@example.com"
-                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:bg-white"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">Service Needed</label>
-                <select
-                  value={formData.service}
-                  onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:bg-white"
-                >
-                  <option value="Software Engineering & Web Apps">Software Engineering & Web Apps</option>
-                  <option value="Banking Technology & CBS V2">Banking Technology & CBS V2</option>
-                  <option value="Cybersecurity & VAPT Audits">Cybersecurity & VAPT Audits</option>
-                  <option value="IT Infrastructure & ITAM">IT Infrastructure & ITAM</option>
-                  <option value="Other Inquiry">Other Inquiry</option>
-                </select>
-              </div>
-
-              <div>
-                <label className="block text-xs font-semibold text-slate-700 mb-1">Message</label>
-                <textarea
-                  rows={4}
-                  required
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  placeholder="Tell us about your project requirements..."
-                  className="w-full bg-slate-50 border border-slate-200 rounded-lg p-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-900 focus:bg-white"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="w-full py-3.5 bg-blue-900 hover:bg-blue-800 text-white font-bold rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-md"
-              >
-                Send Message <Send size={16} />
-              </button>
-            </form>
-          </div>
+          
 
         </div>
       </section>
