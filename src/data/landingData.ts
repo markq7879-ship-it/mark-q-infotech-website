@@ -46,10 +46,10 @@ export const SERVICES_LIST = [
 
 export const STATS_LIST = [
 
-=======
-  { number: "15+", label: "Engineers & Specialists" },
-  { number: "2026", label: "Founded In" },
->>>>>>> Stashed changes
+
+    { number: "15+", label: "Engineers & Specialists" },
+    { number: "2026", label: "Founded In" },
+
   { number: "50+", label: "Enterprise Projects" },
   { number: "5+", label: "City Served" }
 ];
